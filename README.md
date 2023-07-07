@@ -1,2 +1,2 @@
-# Comphrensive-Assignment
-Repo for Comphrensive Assignment
+# Capstone Project - Selenium BDD - SauceDemo Swag Labs Site
+Repo for Capstone Project - Selenium BDD - SauceDemo Swag Labs Site
