@@ -13,7 +13,7 @@ import java.util.List;
 public class swagLabsTest extends BaseTestClass {
     swagLabs_Page swagLabsPage;
 
-    @BeforeMethod
+    @BeforeSuite
     public void setUp() {
         initBrowserAndNavigateToUrl();
     }
