@@ -20,7 +20,6 @@ public class swagLabsTest extends BaseTestClass {
 
 
     // Data Provider for Username & Password
-    @BeforeTest
     @DataProvider(name = "loginCredentials")
     public Object[][] getLoginCredentials() {
         return new Object[][]{
@@ -28,7 +27,7 @@ public class swagLabsTest extends BaseTestClass {
         };
     }
 
-    @Test(priority = 1, dataProvider = "loginCredentials")
+    @Test(dataProvider = "loginCredentials")
     public void verifySauceDemo_ThankYouOrderTest(String username, String password) {
         swagLabsPage = new swagLabs_Page();
         System.out.println("Title : " + driver.getTitle());
